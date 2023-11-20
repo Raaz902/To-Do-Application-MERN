@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-//const mongoose = require('mongoose');
 require('./db/config');
 const User = require('./db/User');
 const Task = require('./db/Task');
